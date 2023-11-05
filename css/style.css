@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;800&display=swap');
+
+/*font-family: 'Asap', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Asap', sans-serif;
+}
+
+@media (min-width: 320px){
+
+img{
+  width: 54%;
+}
+
+#helados {
+  width: 88%;
+}
+
+
+}
+
+@media (min-width: 992px){
+
+  img{
+    width: auto;
+  }
+
+  .sociales a {
+    color: rgb(0, 0, 0);
+    font-size: 100px !important;
+    margin: 40px !important;
+    align-self: center;
+  }
+
+  #helados {
+    width: 70%;
+  }
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(5, 201, 201);
+}
+
+.header_logo {
+text-align: center;
+padding-left: 20px;
+}
+
+
+/*.lista {
+  background-color: rgb(221, 221, 221);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 0;
+}*/
+
+/*.navbar-nav{
+  float: left;
+  margin: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  position: relative;
+}*/
+
+.navbar{
+  background-color: rgb(221, 221, 221) !important;
+}
+
+.nav-item{
+  text-align: justify;
+}
+
+.lista a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.lista a:hover {
+  background-color: rgb(5, 201, 201);
+  padding: 20px 20px;
+}
+
+.container-principal {
+  background-color: rgb(173, 255, 255);
+  padding-top: 35px;
+  padding-right: 21px;
+  padding-bottom: 71px;
+  padding-left: 21px;
+  text-align: center;
+}
+
+.margen-principal {
+  background-color: rgb(5, 201, 201);
+  padding: 80px;
+}
+
+.container-secundario {
+  background-color: rgb(173, 255, 255);
+  padding: 80px;
+  text-align: center;
+}
+
+.margen-secundario {
+  background-color: rgb(5, 201, 201);
+  padding: 80px;
+}
+
+footer {
+  background-color: rgb(173, 255, 255);
+  text-align: center;
+  width: auto;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.sociales a {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+}
+
+.linksexternos{
+  color: rgb(0, 0, 0);
+  font-size: 43px;
+  margin: 0 18px;
+  padding: 20px;
+  align-self: center;
+}
+
+
+.redes a {
+  color: rgb(0, 0, 0);
+  width: 100px;
+  padding: 10px;
+}
+
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  box-shadow: 2px 2px 5px;
+  border-radius: 50px;
+}
+
+.container-secundario h2 {
+  padding: 20px;
+}
+
+.container-principal h1 {
+  padding: 20px;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(5, 201, 201);
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgb(111, 204, 204);
+}
+
+#helados {
+  border-radius: 35px;
+}
+
+#lomasimg {
+  border-radius: 150px;
+}
+
+#lanusimg {
+  border-radius: 150px;
+}
+
+#escaladaimg {
+  border-radius: 150px;
+}
